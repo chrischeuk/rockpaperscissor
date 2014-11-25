@@ -1,0 +1,15 @@
+<h1><% if win %>
+<%=    "You win" %>
+<% elsif @LHS == @RHS %>
+<%=    "DRAW" %>
+<% else %>
+<%=    "You lose" %>
+<% end %> </h1>
+<h1></h1>
+
+
+
+
+<%= image_tag("rock_paper_scissors/#{@LHS}.jpeg") %>
+
+<%= image_tag("rock_paper_scissors/#{@RHS}flip.jpeg") %>
